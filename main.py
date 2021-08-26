@@ -27,8 +27,6 @@ for hour_data in weather_slice:
         will_it_rain=True
 
 if will_it_rain:
-    
-
     client = Client(account_sid, auth_token)
     message = client.messages \
                 .create(
